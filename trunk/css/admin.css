@@ -1,0 +1,127 @@
+/* GALLERY ADMIN STYLES */
+
+
+/* --- GENERAL --- */
+.clear{
+    clear:both;
+}
+/* update button */
+.fluff-dashboard #publish,
+.fluff-dashboard #reset{
+    float: right;
+    margin: 10px 0;
+}
+/* WordPress update messages */
+.updated,
+/* WordPress login messages */
+.login.message{
+    
+}
+/* WordPress error messages */
+.error{
+    
+}
+
+/* --- IMAGES TO GALLERY --- */
+#fluff-bluk-actions-menu .image-item{
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    float: left;
+    margin: 20px;
+    width: 270px;
+    overflow: hidden;
+}
+/* wrap item */
+#fluff-bluk-actions-menu .image-item-wrap{
+    padding: 0 10px 7px;
+    width: auto;
+}
+#fluff-bluk-actions-menu .image-thumbnail-wrap{
+    float: left;
+    padding: 10px 0;
+    width: 95px;
+}
+#fluff-bluk-actions-menu .image-description-wrap{
+    float: right;
+    width: 150px;
+}
+#fluff-bluk-actions-menu .image-description-wrap .image-title{
+    height: 1.4em;
+    overflow: hidden;
+}
+#fluff-bluk-actions-menu .image-thumbnail{
+    height: 75px;
+    width: 75px;
+}
+.image-title{
+    font-weight: bold;
+}
+
+/* --- GALLERY SCREENS --- */
+.fluff-dashboard .image-meta{
+    width: 100%;
+}
+.fluff-dashboard textarea.image-caption{
+    height: 60px;
+}
+.fluff-dashboard .image-thumbnail{
+    border: 1px solid #DFDFDF;
+    height: 75px;
+    width: 75px;
+}
+.fluff-dashboard .image-order{
+    width: 20px;
+    text-align: center;
+}
+/* table */
+.fluff-gallery-image{
+    width: 80px;
+}
+.fluff-gallery-name{
+    width: 20%;
+}
+.fluff-gallery-title{
+    width: 20%;
+}
+.fluff-gallery-caption{
+    width: 30%;
+}
+.fluff-gallery-order{
+    width: 5%;
+}
+.fluff-gallery-remove{
+    width: 5%;
+}
+#gallery-order th{
+    text-align: center;
+}
+.image-menu-order{
+    text-align: center;
+}
+
+
+/* --- SETTINGS --- */
+#fluff-output-settings #reset{
+    background-color: #d90000;
+    background-image: linear-gradient(to bottom, #ee0000, #d90000);
+    border-color: #777;
+    float: right;
+    margin-right: 20px;
+}
+
+#fluff-output-title{
+    
+}
+#fluff-output-settings textarea{
+    width: 50%;
+    height: 100px;
+}
+#fluff-output-settings textarea[name=in-loop]{
+    height: 150px;
+}
+p.textarea.label{
+    font-size: 0.9em;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
